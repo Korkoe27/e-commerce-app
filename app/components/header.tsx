@@ -3,7 +3,6 @@ import Image from "next/image"
 // images
 import cartIcon from '../assets/cart/cartIcon.svg'
 import logo from '../assets/shared/desktop/logo.svg'
-import { useState } from "react";
 
 
 export default function Header () {
