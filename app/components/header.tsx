@@ -7,7 +7,6 @@ import { useState } from "react";
 
 
 export default function Header () {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
         <nav className="flex justify-between text-white pt-4 pb-8 border-b border-gray/5">
             <a className="font-bold text-xl"><Image src={logo} alt="logo" /></a>
